@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/7257705f93.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Books</title>
+  </head>
+  <div class="container">
+    <h1 class="heading">My <span>Books</span> Library</h1>
+    <form action="#" class="form">
+      <div class="form-row">
+        <label for="author">author: </label>
+        <input type="text" id="author" name="author" />
+      </div>
+      <div class="form-row">
+        <label for="title">title: </label>
+        <input type="text" id="title" name="title" />
+      </div>
+      <div class="form-row">
+        <label for="pages">pages: </label>
+        <input type="text" id="pages" name="pages" />
+      </div>
+      <button type="submit" class="submit-btn">add book</button>
+    </form>
+
+    <table>
+      <tr>
+        <th class="bookHeader">author</th>
+        <th class="bookHeader">title</th>
+        <th class="bookHeader">pages</th>
+      </tr>
+    </table>
+    <table class="books-list"></table>
+  </div>
+  <body>
+    <script src="app.js"></script>
+  </body>
+</html>

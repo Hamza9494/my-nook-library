@@ -1,0 +1,154 @@
+.btn {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+table {
+  border-collapse: collapse;
+  border: 2px solid transparent;
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+}
+
+td,
+th {
+  border: 1px solid rgb(190, 190, 190);
+  padding: 10px 50px;
+  font-size: 16px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+th {
+  background-color: rgb(235, 235, 235);
+}
+.bookHeader {
+  padding: 10px 63px;
+}
+td {
+  text-align: center;
+}
+
+tr:nth-child(even) td {
+  background-color: rgb(250, 250, 250);
+}
+
+tr:nth-child(odd) td {
+  background-color: rgb(245, 245, 245);
+}
+
+caption {
+  padding: 10px;
+}
+
+.container {
+  width: 500px;
+  margin: 5rem auto;
+}
+.books-header {
+  display: none;
+}
+
+.heading {
+  margin: 3rem;
+}
+
+.heading span {
+  color: red;
+}
+
+.form {
+  width: 500px;
+  margin: 2rem auto;
+  transition: 0.5s all ease-in;
+}
+
+/* .-row {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.form-row input[type='text'] {
+  background-color: #ffffff;
+  boformrder: 1px solid #d6d9dc;
+  border-radius: 3px;
+  width: 100%;
+  padding: 7px;
+  font-size: 14px;
+}
+
+.form-row label {
+  margin-bottom: 10px;
+  font-size: 18px;
+} */
+
+/* #ffffff #d6d9dc  */
+.form-row {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.form-row input[type='text'] {
+  padding: 8px;
+  border: 1px solid #d6d9dc;
+  background-color: #ffffff;
+  border-radius: 3px;
+  width: 100%;
+  font-size: 16px;
+}
+
+.form-row label {
+  font-size: 20px;
+  margin-bottom: 0.25rem;
+}
+
+.submit-btn {
+  font-size: 16px;
+  font-weight: bold;
+
+  color: #ffffff;
+  background-color: #5995da;
+
+  border: none;
+  border-radius: 3px;
+
+  padding: 10px 40px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #76aeed;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+  color: red;
+}
+
+#icon {
+  display: inline-block;
+  padding: 7px 14px;
+  font-size: 45px;
+  color: white;
+  background-color: #5995da;
+  position: absolute;
+  left: 50rem;
+  border-radius: 15%;
+  cursor: pointer;
+}
